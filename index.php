@@ -62,7 +62,7 @@ for ($i = 0; $i < count($data); $i++) {
                                                             </div>
                                                         </td>
                                                     <td>' . $bike->getColor() . '</td>
-                                                    <td class="text-right">' . $bike->getPrice() . '€ </td>
+                                                    <td class="text-right">' . $bike->getPrice()  . '€ </td>
                                                 </tr>'
                                                     );
                                                 }
